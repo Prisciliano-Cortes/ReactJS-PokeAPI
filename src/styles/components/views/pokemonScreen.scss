@@ -1,0 +1,94 @@
+
+.title {
+    padding: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.principal {
+    overflow: auto;
+}
+
+.options {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+  
+.actions {
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+}
+  
+.main-pokes {
+    float: left;
+    width: 55%;
+    padding: 0 20px;
+}
+  
+.view-pokes {
+    float: left;
+    width: 25%;
+    padding: 15px;
+    padding-right: 40px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: $black;
+    color: $white;
+    height: 35px;
+}
+
+tr td {
+    background: #f0f0f0;
+    font-weight:bold;
+    font-size: 1.0em;
+}
+
+tr td:first-child {
+    &:hover {
+        background-color: $button-warning;
+        height: 50px;
+        cursor: move;
+    }
+}
+
+tbody td {
+    text-align:center;
+}
+
+tbody td:before {
+    text-align:center;
+}
+
+// PARA DISPOSITIVO MÓVIL
+@media only screen and (max-width: 620px) {
+    .options, .main-pokes {
+        width: 100%;
+    }
+
+    .view-pokes {
+        float: left;
+        width: 100%;
+        padding: 15px;
+        margin-top: 7px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}

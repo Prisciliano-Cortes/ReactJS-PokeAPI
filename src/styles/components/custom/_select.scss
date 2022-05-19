@@ -1,0 +1,42 @@
+.container-select {
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.row-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.column-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.option-select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+}
+  
+.label-select {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+@media screen and (max-width: 600px) {
+    .column-25, .column-75 {
+        width: 100%;
+        margin-top: 0;
+    }
+}

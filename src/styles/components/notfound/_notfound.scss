@@ -1,0 +1,27 @@
+.notfound__main {
+    align-items: center;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.notfound__box-container {
+    background-color: $white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    color: #00CE67;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.notfound__title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: $black;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}

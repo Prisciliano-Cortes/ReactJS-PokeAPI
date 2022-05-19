@@ -1,0 +1,20 @@
+// Configuración de los estilos
+@import './config/settings';
+@import './config/base';
+
+// Components
+
+// Customs
+@import './components/custom/button';
+@import './components/custom/select';
+@import './components/custom/cards';
+
+// Menú de amburguesa
+@import './components/menu/menu';
+
+// Página no encontrada
+@import './components/notfound/notfound';
+
+// Vista de pokemones
+@import './components/views/pokemonScreen';
+@import './components/views/viewPokeScreen';

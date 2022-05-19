@@ -1,0 +1,96 @@
+.btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 7px 10px 7px 10px;
+
+    transition: color 0.3s ease;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        color: darken($color: white, $amount: 10);
+    }
+}
+
+.btn-primary {
+    background-color: $button-primary;
+    border-radius: 3px;
+    height: 40px;
+    text-transform: uppercase;
+
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($color: $button-primary, $amount: 15);
+    }
+}
+
+.btn-secondary {
+    background-color: $button-secondary;
+    border-radius: 3px;
+    height: 40px;
+    text-transform: uppercase;
+
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($color: $button-secondary, $amount: 15);
+    }
+}
+
+.btn-warning {
+    background-color: $button-warning;
+    border-radius: 3px;
+    height: 40px;
+    text-transform: uppercase;
+
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($color: $button-warning, $amount: 15);
+    }
+}
+
+.btn-success {
+    background-color: $button-success;
+    border-radius: 3px;
+    height: 40px;
+    text-transform: uppercase;
+
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($color: $button-success, $amount: 15);
+    }
+}
+
+.btn-info {
+    background-color: $button-info;
+    border-radius: 3px;
+    height: 40px;
+    text-transform: uppercase;
+
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($color: $button-info, $amount: 15);
+    }
+}
+
+.btn-dark {
+    background-color: $button-dark;
+    border-radius: 3px;
+    height: 40px;
+    text-transform: uppercase;
+
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($color: $button-dark, $amount: 15);
+    }
+}

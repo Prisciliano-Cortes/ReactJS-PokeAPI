@@ -1,0 +1,20 @@
+// Arreglo para poder ser seleccionado por el usuario
+export const types = [
+    'normal',
+    'fire',
+    'water',
+    'grass',
+    'electric',
+    'ice',
+    'fighting',
+    'poison',
+    'ground',
+    'psychic',
+    'bug',
+    'rock',
+    'ghost',
+    'dark',
+    'dragon',
+    'steel',
+    'fairy',
+];

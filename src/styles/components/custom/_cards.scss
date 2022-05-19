@@ -1,0 +1,60 @@
+.body {
+    display: grid;
+    justify-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.card-img {
+    --card-gradient: rgba(0, 0, 0, 0.8);
+    --card-gradient: #5e9ad9, #e271ad;
+    --card-blend-mode: overlay;
+    background-color: $white;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    padding-bottom: 1rem;
+    background-image: linear-gradient(
+        var(--card-gradient),
+        white max(9.5rem, 27vh)
+    );
+    overflow: hidden;
+  
+    img {
+        border-radius: 0.5rem 0.5rem 0 0;
+        width: 100%;
+        object-fit: cover;
+        ~ * {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+  
+    > :last-child {
+        margin-bottom: 0;
+    }
+  
+    &:hover, &:focus-within {
+        --card-gradient: #24a9d5 max(8.5rem, 20vh);
+    }
+}
+  
+.card-img h1 {
+    margin-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+  
+.card-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    grid-gap: 1.5rem;
+    max-width: 95vw;
+    width: 60ch;
+    padding-left: 0.2rem;
+    padding-right: 1.4rem;
+} 
