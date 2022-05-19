@@ -8,8 +8,8 @@ export const Menu = () => {
             <i className="fas fa-bars"></i>
             <i className="fas fa-times"></i>
             <nav>
-                <NavLink to='/'>NOMBRE POKEMÓN</NavLink> 
-                <NavLink to='/search'>TIPO POKEMÓN</NavLink> 
+                <NavLink to='/'>NOMBRE POKÉMON</NavLink> 
+                <NavLink to='/search'>TIPO POKÉMON</NavLink> 
             </nav>
         </div>
     )
